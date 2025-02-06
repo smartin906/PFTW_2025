@@ -5,6 +5,7 @@ function setup() {
 }
 
 function createTile() {
+  noLoop();
   translate(0, 0);
   stroke('yellow');
   strokeWeight(2);
