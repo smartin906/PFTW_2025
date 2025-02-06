@@ -30,5 +30,4 @@ function draw () {
   createTile(200, 0, 'blue', 'red', 'blue');
   createTile(0, 200, 'yellow', 'cyan', 'magenta');
   createTile(0, 200, 'white', 'black', 'tan');
-
 }
