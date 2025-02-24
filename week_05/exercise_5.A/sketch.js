@@ -62,7 +62,10 @@ function setup() {
   
 
 function draw() {
-  background(0);
+  background('aliceblue');
+  fill('darkgrey');
+  textSize(66);
+  text('Memory Game', 325, 75);
   for (let card of cards) {
     card.show();
   }
@@ -75,7 +78,7 @@ function draw() {
     noLoop();
     createButton('Play Again').mousePressed(() => window.location.reload());
   }
-  fill(255);
+  fill('darkgrey');
   textSize(36);
   textFont('baskerville');
   text('Attempts: ' + gameState.attempts, 100, 375);
@@ -135,7 +138,7 @@ class Card {
     } else {
       fill('darkturquoise');
       rect(this.x, this.y, this.width, this.height, this.borderRadius);
-      image(cardBack, this.x, this.y, this.width - 10, this.height - 10);      
+      image(cardBack, this.x, this.y, this.width, this.height);      
     }
   }
 
