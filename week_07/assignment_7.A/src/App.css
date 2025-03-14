@@ -11,8 +11,9 @@ h1 {
 }
 
 .BookCards {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
     width: 500px;
     border: 1px, solid, white;
     border-radius: 5px;
