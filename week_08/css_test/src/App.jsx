@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Card from './components/Card.jsx';
+import {nanoid} from 'nanoid';
 
 
 function App() {   
@@ -71,10 +72,9 @@ function duplicateBook(bookTitle) {
   const book = bondBooks.find((book) => {
     return book.title === bookTitle;
   });
-  if (book) {
-    const updatedArray = [...bondBooks, { ...book, title: `${book.title}` }];
-    setBondBooks(updatedArray);
-  }
+    const updatedBooks = [...bondBooks, { ...book, id: nanoid() }];
+    setBondBooks[(...bondBooks, updatedBooks)];
+
 }
 
 return (
