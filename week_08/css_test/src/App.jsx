@@ -72,12 +72,12 @@ function deleteBook(id) {
   setBondBooks(updatedArray);
 }
 
-function focusBook(id) {
-  console.log("Focusing", id);
+function focusBook(title) {
+  console.log("Focusing", title);
   const updateHeadline = bondBooks.find((bondBooks) => {
-    return bondBooks.id === id;
+    return bondBooks.title === title;
   });
-  setHeadline("Ah, " + updateHeadline.title + ", " + "an excellent choice");
+  setHeadline(`Ah, ${updateHeadline.title} is a great book!`);
 }
 
 function duplicateBook(id) {

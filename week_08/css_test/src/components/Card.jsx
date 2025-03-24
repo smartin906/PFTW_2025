@@ -20,7 +20,7 @@ export default function Card({
         <p>Objective: {objective}</p>
         <p>Outcome: {outcome}</p>
         <button onClick={() => deleteFn(id)}>Delete</button>
-        <button onClick={() => focusFn(id)}>Focus</button>
+        <button onClick={() => focusFn(title)}>Focus</button>
         <button onClick={() => duplicateFn(id)}>Duplicate</button>
       </div>
     )
