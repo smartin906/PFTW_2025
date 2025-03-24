@@ -1,28 +1,38 @@
-export default function Card({ title, image, villain, objective, outcome, deleteFn, focusFn, duplicateFn }) {
-    
-  return (
-    <div className="card">
-      <h3>{title}</h3>
-      <img src={image}
-        alt={title}
-      />
-      <h4>villain</h4>
-      <p>{villain}</p>
-      <h4>objective</h4>
-      <p>{objective}</p>
-      <h4>outcome</h4>
-      <p>{outcome}</p>
-      <button onClick={() => {
-        focusFn(title)
-      }} style={{color: 'blue', background: 'white', margin: 10}}>Focus</button>
-      <button onClick={() => {
-        deleteFn(title)
-      }} style={{color: 'red', background: 'white'}}>Delete</button>
-      < button onClick={() => {
-        duplicateFn(title)
-      }
-      } style={{ color: 'green', background: 'white' }}>Duplicate</button>
-    </div>
-  );
+import clsx from "clsx";
+import PropTypes from "prop-types";
+import "./Card.css";
+export default function Card({    
+    title,
+    villain,
+    objective,
+    outcome,
+    image,
+    id,
+    duplicateFn,
+    focusFn,
+    deleteFn
+}) {
+    return (
+      <div className="card">
+        <h2>{title}</h2>
+        <img src={image} alt={title} />
+        <p>Villain: {villain}</p>
+        <p>Objective: {objective}</p>
+        <p>Outcome: {outcome}</p>
+        <button onClick={() => deleteFn(id)}>Delete</button>
+        <button onClick={() => focusFn(id)}>Focus</button>
+        <button onClick={() => duplicateFn(id)}>Duplicate</button>
+      </div>
+    )
 }
-
+Card.prototype = {
+    title: PropTypes.string.isRequired,
+    villain: PropTypes.string.isRequired,
+    objective: PropTypes.string.isRequired,
+    outcome: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    duplicateFn: PropTypes.func.isRequired,
+    focusFn: PropTypes.func.isRequired,
+    deleteFn: PropTypes.func.isRequired
+}
