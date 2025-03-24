@@ -16,9 +16,9 @@ export default function Card({
       <div className="card">
         <h2>{title}</h2>
         <img src={image} alt={title} />
-        <p>Villain: {villain}</p>
-        <p>Objective: {objective}</p>
-        <p>Outcome: {outcome}</p>
+        <p><strong>Villain:</strong> {villain}</p>
+        <p><strong>Objective:</strong> {objective}</p>
+        <p><strong>Outcome:</strong> {outcome}</p>
         <button onClick={() => deleteFn(id)}>Delete</button>
         <button onClick={() => focusFn(title)}>Focus</button>
         <button onClick={() => duplicateFn(id)}>Duplicate</button>
