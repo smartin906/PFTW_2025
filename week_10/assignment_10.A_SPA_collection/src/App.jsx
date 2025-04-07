@@ -12,9 +12,9 @@ return (
   <>
   <nav>
     <ul>
-      {/* <li>
+      <li>
         <Link to="/">Home</Link>
-      </li> */}
+      </li>
       {/* <li>
         <Link to="/bookDetails">Book Details</Link>
       </li> */}
