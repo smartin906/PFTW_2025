@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: darkgray;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.form-group label {
+  display: block; ;
+}
+
+.error {
+  color: red;
+  font-size: 0.5em;
+}
