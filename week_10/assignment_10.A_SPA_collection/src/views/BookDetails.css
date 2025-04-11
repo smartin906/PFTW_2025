@@ -26,7 +26,8 @@ body {
 }
 
 .bookdetails img {
-    width: 200px;
+    max-width: 50%;
+    max-height: 50%;
     border-radius: 5px;
     order: 2;
 

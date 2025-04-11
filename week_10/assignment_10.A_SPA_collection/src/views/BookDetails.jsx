@@ -11,9 +11,8 @@ export function BookDetails({data}) {
     return (
         <>
         <div className='bookdetails'>
-        <h1 className='bookdetails_h1'>{selectedBook.title}</h1>
-
-            <img src={selectedBook.image} alt={selectedBook.title} />   
+            <h1 className='bookdetails_h1'>{selectedBook.title}</h1>
+            <img className='bookdetail_img' src={selectedBook.image} alt={selectedBook.title} />   
         <div className='bookdetails_text'>
             <p><strong>Villain:</strong> {selectedBook.villain}</p>
             <p><strong>Objective:</strong> {selectedBook.objective}</p>
