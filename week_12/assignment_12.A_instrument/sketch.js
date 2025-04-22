@@ -44,6 +44,7 @@ function setup() {
   decaySlider.position(windowWidth / 2, 25);
   textSize(16);
   fill(0);
+  noStroke();
   text('decay', windowWidth / 2, 20);
   
 // synthesis starts here
@@ -56,12 +57,12 @@ function draw() {
   polySynth.setADSR(0.1, decaySlider.value(), 0.3, 0.1);
 }
 
-// function touchStarted() {
-//   userStartAudio();
-//   for (let i = 0; i < numBars; i++) {
-//     bars[i].played();
-//   }
-// }
+function touchStarted() {
+  userStartAudio();
+  for (let i = 0; i < numBars; i++) {
+    bars[i].played();
+  }
+}
 
 function keyPressed() {
   let k = key.toUpperCase();
