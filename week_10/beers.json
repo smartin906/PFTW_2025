@@ -1,0 +1,55 @@
+{
+    "beers": [
+      {
+        "name": "Stonebeard Stout",
+        "style": "Dwarven Brew of Champions",
+        "ABV": 7.2,
+        "color": "Deep brown with a thick, creamy tan head.",
+        "tasting_notes": "Bold roasted coffee, dark chocolate, caramel, and a hint of smokiness. Smooth and full-bodied, with a malty backbone.",
+        "hop_profile": "Fuggles & East Kent Goldings—mild bitterness with earthy, woody notes.",
+        "tagline": "Brewed in the heart of the mountain, this stout is as strong as dwarven steel!",
+        "image": "https://example.com/stonebeard_stout.jpg"
+      },
+      {
+        "name": "Trollspit Ale",
+        "style": "Swamp Brew Surprise",
+        "ABV": 5.8,
+        "color": "Hazy greenish-gold with a wild, foamy head.",
+        "tasting_notes": "Funky, slightly sour, with wild yeast, citrus zest, and an earthy, grassy finish. A bit unsettling, but oddly refreshing.",
+        "hop_profile": "Sorachi Ace & Hallertau Blanc—lemon zest, herbal funk, and white wine character.",
+        "tagline": "It might sound nasty, but you'll keep coming back for more!",
+        "image": "https://example.com/trollspit_ale.jpg"
+      },
+      {
+        "name": "Gilded Tankard Golden Ale",
+        "style": "Noble’s Favorite Brew",
+        "ABV": 5.5,
+        "color": "Brilliant golden amber, crystal clear.",
+        "tasting_notes": "Light and crisp, with honeyed malt, biscuit, and a whisper of noble spices. Smooth and easy-drinking.",
+        "hop_profile": "Saaz & Tettnang—mild spiciness and floral aroma.",
+        "tagline": "A brew fit for royalty and rogues alike.",
+        "image": "https://example.com/gilded_tankard.jpg"
+      },
+      {
+        "name": "Beholder’s Gaze IPA",
+        "style": "A Multi-Layered Brew",
+        "ABV": 6.9,
+        "color": "Hazy golden-orange with a glowing radiance.",
+        "tasting_notes": "Juicy and complex, bursting with citrus, tropical fruit, and pine. Changes flavor with every sip.",
+        "hop_profile": "Citra, Mosaic & Simcoe—bright citrus, passionfruit, and resinous pine.",
+        "tagline": "One sip, and you won’t look away… or blink.",
+        "image": "https://example.com/beholders_gaze.jpg"
+      },
+      {
+        "name": "Moonlit Ambrosia",
+        "style": "Elven Mead of the Stars",
+        "ABV": 10.0,
+        "color": "Pale golden with a soft, shimmering glow.",
+        "tasting_notes": "Delicate floral honey, elderflower, and lavender. Slightly effervescent with a smooth, lingering sweetness.",
+        "hop_profile": "No hops—pure honey and botanicals.",
+        "tagline": "A sip of moonlight, a taste of magic.",
+        "image": "https://example.com/moonlit_ambrosia.jpg"
+      }
+    ]
+  }
+  
