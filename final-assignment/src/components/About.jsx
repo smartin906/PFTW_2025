@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import splashImage from '../assets/about.jpeg';
 
 const people = [
-    { id: 1, name: 'Alex Brewer', title: 'Head Brewer', image: '/assets/images/Alex_Brewer.jpeg' },
-    { id: 2, name: 'Jamie Malt', title: 'Operations Manager', image: '/assets/images/Jamie_Malt.jpeg' },
-    { id: 3, name: 'Chris Hops', title: 'Lead Brewmaster', image: '/assets/images/Chris_Hops.jpeg' },
+    { id: 1, name: 'Alex Brewer', title: 'Head Brewer', image: '/img/Alex_Brewer.jpeg' },
+    { id: 2, name: 'Jamie Malt', title: 'Operations Manager', image: '/img/Jamie_Malt.jpeg' },
+    { id: 3, name: 'Chris Hops', title: 'Lead Brewmaster', image: '/img/Chris_Hops.jpeg' },
     ];
 
 
